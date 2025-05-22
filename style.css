@@ -1,0 +1,29 @@
+h1 {
+  background-color: brown;
+}
+
+td {
+  padding: 30px;
+  border-bottom: 1px solid gray;
+}
+.nav {
+  background-color: yellow;
+}
+body {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: "40px";
+  width: "40px";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}

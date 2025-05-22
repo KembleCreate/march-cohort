@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  /* gap: 700px; */
+  align-items: center;
+  padding-inline: 4.5rem;
+  padding-block: 1.3rem;
+  justify-content: space-between;
+}
+
+.nav-links {
+  flex: end;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.nav-links a {
+  color: black;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/ef047784bc6a5cf2b81a76a6/robotgradientintro2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+
+.herotext {
+  width: 400px;
+  margin-top: 60px;
+}
+.hero h1 {
+  font-size: 82px;
+  color: #ffff;
+  font-family: sans-serif;
+  margin-top: 89px;
+  margin-right: auto;
+  margin-left: -27px;
+  line-height: 1.1;
+  font-weight: 700px;
+}
+
+.hero img {
+  margin: 89px 0px;
+  height: 147px;
+  width: 147px;
+}
+
+.hero p {
+  color: #ffff;
+  font-size: 20px;
+}

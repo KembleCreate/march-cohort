@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: blue;
+}
+p {
+  font-family: "Titillium Web", sans-serif;
+}
+nav {
+  background-color: black;
+  display: flex;
+}
+ul {
+  display: inline-flex;
+  padding-left: 70%;
+  justify-content: space-between;
+}
+ul li {
+  word-spacing: 2px;
+  justify-content: space-between;
+  padding: 4px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+h1 {
+  font-size: 75px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+section {
+  background-color: rgba(0, 0, 0, 0.491);
+  background-image: url(https://kodexafrica.com/new/img/fourth_slide.jpeg);
+  color: wheat;
+  padding: 5rem;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  align-items: center;
+  font-weight: 600px;
+  line-height: 70px;
+}
+
+section p {
+  padding: 3rem;
+}
+
+section p:hover {
+  border-radius: 2px solid black;
+}
+
+section a {
+  background-color: red;
+  color: rgba(0, 255, 255, 0.493);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+span {
+  color: orange;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  /* background-color: blue; */
+  /* background-image: linear-gradient(direction, color1, color2); */
+  /* background-image: linear-gradient(to left, blue, green, yellow); */
+  background-image: radial-gradient(ellipse, red, black, yellow);
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px yellow;
+  cursor: not-allowed;
+}
+
+section img {
+  filter: brightness(10%);
+  height: 100vh;
+}
+
+/* Relative and absolute unit */
+
+.unit {
+  background-color: chocolate;
+  height: 500px;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.height {
+  background-color: black;
+  height: 50%;
+  width: 50%;
+}
+.widthcal {
+  background-color: blueviolet;
+  height: 100%;
+  width: 100%;
+}
+
+.widthchild {
+  width: 50%;
+  height: 100vh;
+  background-color: crimson;
+  /* 1rem is equivalent of 16px */
+  font-size: 1rem;
+  overflow-y: scroll;
+}
+
+.body-img {
+  width: 700px;
+  height: 500px;
+  background-color: aqua;
+}
+
+.body-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
